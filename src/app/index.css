@@ -8,4 +8,9 @@ body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Wix Madefor Text", sans-serif;
+  font-size: 46px;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
 }

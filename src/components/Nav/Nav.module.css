@@ -1,0 +1,27 @@
+.LinkBox {
+  list-style: none;
+  display: flex;
+  gap: 5px;
+  height: 100px;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: center;
+  position: absolute;
+}
+
+.navLink {
+  color: var(--white-color);
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.navLink:hover {
+  color: var(--red-color);
+  transition: 0.4s;
+}
+
+.navLink:last-child {
+  margin-right: 55px;
+}
