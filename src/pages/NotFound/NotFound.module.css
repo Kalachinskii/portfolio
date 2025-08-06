@@ -1,0 +1,16 @@
+.NotFound {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--b-black-color);
+}
+
+.NotFound h1 {
+  color: red;
+}
+
+.NotFound h2 {
+  color: var(--white-color);
+}

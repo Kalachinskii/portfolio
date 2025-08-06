@@ -11,6 +11,7 @@ export function Home() {
           <span> TypeScript</span>
         </h1>
       </div>
+
       <Link to={"/"} className={styles.link} />
     </>
   );
