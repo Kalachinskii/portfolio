@@ -5,12 +5,61 @@
   justify-content: center;
   align-items: center;
   background-color: var(--b-black-color);
+  position: relative;
+  overflow: hidden;
+}
+
+.NotFound * {
+  font-family: "Bebas Neue", sans-serif;
 }
 
 .NotFound h1 {
-  color: red;
+  color: #e5e6db;
+  position: relative;
+  z-index: 2;
+  outline: none;
+  line-height: 10px;
 }
 
-.NotFound h2 {
-  color: var(--white-color);
+.text {
+  color: #c5c5b3;
+  z-index: 2;
+}
+
+.fon {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  color: #cd0921;
+  font-size: 40em;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  line-height: 0;
+}
+
+.link {
+  cursor: pointer;
+  text-decoration: none;
+  z-index: 2;
+  color: #c5c5b3;
+  line-height: 45px;
+  font-family: "Great Vibes", cursive;
+  animation: sparkle 3s infinite;
+}
+
+@keyframes sparkle {
+  0% {
+    color: #c5c5b3;
+  }
+  50% {
+    color: #ffffff;
+    text-shadow: 0 0 5px #fff;
+  }
+  100% {
+    color: #c5c5b3;
+  }
 }
