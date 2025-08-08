@@ -1,8 +1,15 @@
 import styles from "./Card.module.css";
+import { Links } from "./Links/Links";
+import Texnologys from "./Texnologys/Texnologys";
 
 export function Card() {
   return (
     <div className={styles.cardBox}>
+      <img
+        className={styles.img}
+        src="/project_scrin/analyz.png"
+        alt="Изображение проекта"
+      />
       <div className={styles.iconBox}>
         <span className={styles.fonIcon}></span>
         <i
@@ -16,26 +23,8 @@ export function Card() {
         ></i>
       </div>
       <div className={styles.contentBox}>
-        <div className={styles.texnologyBox}>
-          <span className={styles.texnology}>HTML5</span>
-          <span className={styles.texnology}>CSS3</span>
-          <span className={styles.texnology}>JavaScript</span>
-          <span className={styles.texnology}>React</span>
-          <span className={styles.texnology}>TypeScript</span>
-          <span className={styles.texnology}>Vite</span>
-        </div>
-        <a
-          className={`${styles.link} ${styles.siteLink}`}
-          href="https://kalachinskii.github.io/text_analysis/"
-        >
-          Link site
-        </a>
-        <a
-          className={`${styles.link} ${styles.gitLink}`}
-          href="https://github.com/Kalachinskii/text_analysis"
-        >
-          Link git
-        </a>
+        <Texnologys />
+        <Links />
       </div>
     </div>
   );

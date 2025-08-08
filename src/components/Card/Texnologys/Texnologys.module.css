@@ -1,0 +1,14 @@
+.texnology {
+  padding: 5px 15px;
+  border: 1px solid #eee;
+  border-radius: 25px;
+}
+
+.texnologyBox {
+  position: absolute;
+  width: 100%;
+  top: 40%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}

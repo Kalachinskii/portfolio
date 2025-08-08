@@ -1,8 +1,4 @@
-import {
-  createBrowserRouter,
-  redirect,
-  RouterProvider,
-} from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { ROUTES } from "../router/constants";
 import { Hero } from "../pages/Hero/Hero";
 import { Layouts } from "../components/layouts/Layouts";
@@ -30,7 +26,7 @@ const router = createBrowserRouter([
       },
       {
         path: "js",
-        element: <>Контент JS</>,
+        element: <Card />,
       },
       {
         path: "php",

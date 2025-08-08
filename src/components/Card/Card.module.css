@@ -22,8 +22,8 @@
   transform: translate(-50%, -50%);
   width: 85px;
   height: 85px;
-  top: 10%;
-  left: 4%;
+  top: 43%;
+  left: 20px;
   background: #11161c;
   clip-path: polygon(50% 25%, 100% 0, 100% 100%, 50% 75%);
   z-index: 1;
@@ -35,7 +35,7 @@
   transform: translate(-50%, -50%);
   width: 85px;
   height: 185px;
-  bottom: 0;
+  bottom: -15%;
   left: 20px;
   background: #11161c;
   clip-path: polygon(50% 12%, 100% 0, 100% 100%, 50% 88%);
@@ -43,15 +43,15 @@
 }
 
 .steckIcon {
-  top: 10.5%;
+  top: 43%;
 }
 
 .linkIcon {
-  top: 65%;
+  top: 80%;
 }
 
 .gitIcon {
-  top: 75%;
+  top: 90%;
 }
 
 .contentBox * {
@@ -68,41 +68,10 @@
   width: 80%;
 }
 
-.texnologyBox {
+.img {
+  border-radius: 0 25 px 0 0;
+  width: 326px;
   position: absolute;
-  width: 100%;
-  top: 8.5%;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-}
-
-.link {
-  position: absolute;
-  width: 80%;
-  border: 1px solid #eee;
-  text-align: center;
-}
-
-.link:hover {
-  transition: 0.3s;
-  color: rgb(255, 255, 255);
-  opacity: 1;
-  background-color: #d1213e;
-}
-
-.siteLink {
-  top: 62%;
-  border-radius: 50px 50px 0 0;
-}
-
-.gitLink {
-  top: 73%;
-  border-radius: 0 0 50px 50px;
-}
-
-.texnology {
-  padding: 5px 15px;
-  border: 1px solid #eee;
-  border-radius: 25px;
+  top: 0%;
+  left: 14%;
 }

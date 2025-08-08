@@ -1,0 +1,19 @@
+.link {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+}
+
+.link:hover {
+  transition: 0.3s;
+  color: #d1213e;
+  opacity: 1;
+}
+
+.siteLink {
+  top: 78%;
+}
+
+.gitLink {
+  top: 87.5%;
+}
