@@ -1,0 +1,44 @@
+.worksConteiner {
+  background-color: #333;
+  color: var(--white-color);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  height: 90%;
+  width: 90%;
+}
+
+.box h1 {
+  background-color: #333;
+  text-align: center;
+}
+
+.navigationLink {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+  background-color: #333;
+  padding: 45px 0 25px 0;
+}
+
+.link {
+  color: red;
+  text-decoration: none;
+}
+
+.active {
+  color: rgb(12, 250, 72);
+}
+
+.contentBox {
+  background-color: rgba(141, 80, 80, 0.116);
+  padding: 2%;
+  border: 1px solid red;
+  width: 100%;
+  height: 80%;
+}

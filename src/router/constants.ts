@@ -1,4 +1,8 @@
 export const ROUTES = {
-  HOME: "/",
+  HERO: "/",
+  PROJECTS: "projects",
+  SKILLS: "my-toolkit",
+  ME: "me",
+  CONNECT: "connect",
   NOT_FOUND: "*",
 };

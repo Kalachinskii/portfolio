@@ -8,7 +8,7 @@ export default function Cover() {
       muted
       loop
       playsInline
-      poster="preview.jpg"
+      poster="Cover.png"
     >
       <source src="Cover.mp4" type="video/mp4"></source>
     </video>

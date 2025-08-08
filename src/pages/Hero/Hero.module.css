@@ -1,0 +1,62 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.text {
+  color: var(--white-color);
+  width: 52%;
+}
+
+span {
+  color: var(--red-color);
+}
+
+.scrolBrn {
+  position: absolute;
+  bottom: 2%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 20px;
+  height: 35px;
+  border: 2px solid var(--white-color);
+  border-radius: 15px;
+  opacity: 0.7;
+  cursor: pointer;
+  color: red;
+}
+
+.scrolBrn::before {
+  content: "";
+  position: absolute;
+  transform: translate(-50%, -50%);
+  font-size: 125px;
+  padding: 5px;
+  border-radius: 50%;
+  background: red;
+  top: 35%;
+  left: 50%;
+  animation: bounce 2.5s infinite ease-in-out;
+}
+
+.scrolBrn:hover {
+  border-color: var(--red-color);
+  transition: 0.2s;
+}
+
+.scrolBrn:hover::before {
+  background: var(--white-color);
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translate(-50%, 60%);
+  }
+  50% {
+    transform: translate(-50%, -80%);
+  }
+}
