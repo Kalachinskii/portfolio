@@ -32,7 +32,7 @@
   {
     "id": 4,
     "imageUrl": "/project_scrin/Carolina.png",
-    "title": "Carolina’s Hall",
+    "title": "Carolinas Hall",
     "technologies": ["Bootstrap", "SCSS", "HTML5", "CSS3"],
     "links": {
       "site": "https://kalachinskii.github.io/bootstrapSite",
