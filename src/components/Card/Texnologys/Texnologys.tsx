@@ -7,11 +7,13 @@ export default function Texnologys({
 }) {
   return (
     <div className={styles.texnologyBox}>
-      {technologies.map((name) => (
-        <span key={name} className={styles.texnology}>
-          {name}
-        </span>
-      ))}
+      <div className={styles.box}>
+        {technologies.map((name) => (
+          <span key={name} className={styles.texnology}>
+            {name}
+          </span>
+        ))}
+      </div>
     </div>
   );
 }
