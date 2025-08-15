@@ -3,79 +3,27 @@
   width: 380px;
   height: 600px;
   border-radius: 25px;
-  background: linear-gradient(to left, #11161c 86%, #d1213e 85%);
-}
-
-.icon {
-  position: absolute;
-  transform: translate(-50%, -50%);
-  font-size: 22px;
-  color: #fff;
-  border-radius: 50%;
-  z-index: 10;
-  left: 10%;
-}
-
-.fonIcon:before {
-  content: "";
-  position: absolute;
-  transform: translate(-50%, -50%);
-  width: 85px;
-  height: 85px;
-  top: 43%;
-  left: 20px;
   background: #11161c;
-  clip-path: polygon(50% 25%, 100% 0, 100% 100%, 50% 75%);
-  z-index: 1;
-}
-
-.fonIcon::after {
-  content: "";
-  position: absolute;
-  transform: translate(-50%, -50%);
-  width: 85px;
-  height: 185px;
-  bottom: -15%;
-  left: 20px;
-  background: #11161c;
-  clip-path: polygon(50% 12%, 100% 0, 100% 100%, 50% 88%);
-  z-index: 1;
-}
-
-.steckIcon {
-  top: 43%;
-}
-
-.linkIcon {
-  top: 80%;
-}
-
-.gitIcon {
-  top: 90%;
 }
 
 .contentBox * {
   color: #fff;
   text-decoration: none;
-  font-size: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  font-size: 16px;
   opacity: 0.7;
+  justify-content: center;
+  align-items: center;
 }
 
 .contentBox {
-  position: absolute;
-  left: 20%;
   height: 100%;
   width: 80%;
 }
 
 .img {
   border-radius: 0 25 px 0 0;
-  width: 326px;
-  position: absolute;
-  top: 0%;
-  left: 14%;
-}
-
-.cardBox2 {
-  border: 1px solid red;
+  width: 100%;
 }

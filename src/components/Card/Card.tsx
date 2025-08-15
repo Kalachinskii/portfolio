@@ -17,7 +17,7 @@ export function Card({
   return (
     <div className={styles.cardBox}>
       <img className={styles.img} src={imageUrl} alt="Изображение проекта" />
-      <div className={styles.iconBox}>
+      {/* <div className={styles.iconBox}>
         <span className={styles.fonIcon}></span>
         <i
           className={`${styles.icon} ${styles.steckIcon} fa-solid fa-gears`}
@@ -28,7 +28,7 @@ export function Card({
         <i
           className={`${styles.icon} ${styles.gitIcon} fa-brands fa-github`}
         ></i>
-      </div>
+      </div> */}
       <div className={styles.contentBox}>
         <Texnologys technologies={technologies} />
         <Links links={links} />
