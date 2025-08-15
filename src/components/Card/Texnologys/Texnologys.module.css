@@ -5,10 +5,23 @@
 }
 
 .texnologyBox {
-  position: absolute;
-  width: 100%;
-  top: 40%;
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
+  justify-content: center;
+  align-items: start;
+  min-height: 130px;
+  width: 100%;
+  /* border: 1px solid red; */
+}
+.texnology {
+  padding: 5px 15px;
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 14px;
+  opacity: 0.7;
+  justify-content: center;
+  align-items: center;
 }
