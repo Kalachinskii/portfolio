@@ -1,18 +1,13 @@
 import styles from "./Texnologys.module.css";
 
-export default function Texnologys() {
-  const texnologys = [
-    "HTML5",
-    "CSS3",
-    "JavaScript",
-    "React",
-    "TypeScript",
-    "Vite",
-  ];
-
+export default function Texnologys({
+  technologies,
+}: {
+  technologies: string[];
+}) {
   return (
     <div className={styles.texnologyBox}>
-      {texnologys.map((name) => (
+      {technologies.map((name) => (
         <span key={name} className={styles.texnology}>
           {name}
         </span>

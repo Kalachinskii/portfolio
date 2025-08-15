@@ -1,18 +1,19 @@
 import styles from "./Links.module.css";
 
-export function Links() {
+export function Links({
+  links,
+}: {
+  links: {
+    site: string;
+    git: string;
+  };
+}) {
   return (
     <div className={styles.linkBox}>
-      <a
-        className={`${styles.link} ${styles.siteLink}`}
-        href="https://kalachinskii.github.io/text_analysis/"
-      >
+      <a className={`${styles.link} ${styles.siteLink}`} href={links.site}>
         Открыть сайт
       </a>
-      <a
-        className={`${styles.link} ${styles.gitLink}`}
-        href="https://github.com/Kalachinskii/text_analysis"
-      >
+      <a className={`${styles.link} ${styles.gitLink}`} href={links.git}>
         Открыть гит
       </a>
     </div>

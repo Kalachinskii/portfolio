@@ -5,6 +5,7 @@ import { Layouts } from "../components/layouts/Layouts";
 import { NotFound } from "../pages/NotFound/NotFound";
 import { Works } from "../pages/Works/Works";
 import { Card } from "../components/Card/Card";
+import { CardBox } from "../components/CardBox/CardBox";
 
 const router = createBrowserRouter([
   {
@@ -22,11 +23,11 @@ const router = createBrowserRouter([
     children: [
       {
         path: "ts",
-        element: <Card />,
+        element: <CardBox />,
       },
       {
         path: "js",
-        element: <Card />,
+        element: <>Контент JS</>,
       },
       {
         path: "php",
