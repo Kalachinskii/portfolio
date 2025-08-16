@@ -1,4 +1,8 @@
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import {
+  createBrowserRouter,
+  Navigate,
+  RouterProvider,
+} from "react-router-dom";
 import { ROUTES } from "../router/constants";
 import { Hero } from "../pages/Hero/Hero";
 import { Layouts } from "../components/layouts/Layouts";
@@ -21,20 +25,28 @@ const router = createBrowserRouter([
     element: <Works />,
     children: [
       {
-        path: "ts",
+        index: true,
+        element: <Navigate to="all" replace />,
+      },
+      {
+        path: "all",
         element: <CardBox />,
       },
       {
+        path: "ts",
+        element: <CardBox sort="TypeScript" />,
+      },
+      {
         path: "js",
-        element: <>Контент JS</>,
+        element: <CardBox sort="JavaScript" />,
       },
       {
         path: "php",
-        element: <>Контент PHP</>,
+        element: <CardBox sort="PHP" />,
       },
       {
         path: "html-css",
-        element: <>Контент html-css</>,
+        element: <CardBox sort="HTML5" />,
       },
     ],
   },

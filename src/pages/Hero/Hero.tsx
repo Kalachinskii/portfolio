@@ -18,7 +18,7 @@ export function Hero() {
 
       <div
         className={styles.scrolBrn}
-        onClick={() => navigate(ROUTES.PROJECTS + "/ts")}
+        onClick={() => navigate(ROUTES.PROJECTS)}
       ></div>
     </>
   );

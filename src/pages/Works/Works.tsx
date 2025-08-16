@@ -3,6 +3,7 @@ import styles from "./Works.module.css";
 
 export function Works() {
   const navigation = [
+    { name: "Все", link: "all" },
     { name: "TS", link: "ts" },
     { name: "JS", link: "js" },
     { name: "PHP", link: "php" },
