@@ -7,13 +7,12 @@ export function Works() {
     { name: "TS", link: "ts" },
     { name: "JS", link: "js" },
     { name: "PHP", link: "php" },
-    { name: "HTML/CSS", link: "html-css" },
   ];
 
   return (
     <div className={styles.worksConteiner}>
       <div className={styles.box}>
-        <h1>Мои работы</h1>
+        {/* <h1>Мои работы</h1> */}
         <div className={styles.navigationLink}>
           {navigation.map((nav, ind) => (
             <NavLink

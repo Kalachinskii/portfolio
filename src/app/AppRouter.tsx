@@ -44,10 +44,6 @@ const router = createBrowserRouter([
         path: "php",
         element: <CardBox sort="PHP" />,
       },
-      {
-        path: "html-css",
-        element: <CardBox sort="HTML5" />,
-      },
     ],
   },
   {
