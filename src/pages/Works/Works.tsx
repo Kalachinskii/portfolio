@@ -2,8 +2,11 @@ import { NavLink, Outlet } from "react-router-dom";
 import styles from "./Works.module.css";
 import { Links } from "../../components/Links/Links";
 import json from "../../assets/projects.json";
+import React from "react";
+import useEmblaCarousel from "embla-carousel-react";
 
 export function Works() {
+  const [emblaRef] = useEmblaCarousel();
   const navigation = [
     { name: "Все", link: "all" },
     { name: "TS", link: "ts" },
@@ -40,7 +43,15 @@ export function Works() {
             </div>
           </div>
         </div>
-        <div className={`${styles.rightConteiner}`}></div>
+        <div className={`${styles.rightConteiner}`}>
+          <div className={`${styles.embla}`} ref={emblaRef}>
+            <div className={`${styles.embla__container}`}>
+              <div className={`${styles.embla__slide}`}>Slide 1</div>
+              <div className={`${styles.embla__slide}`}>Slide 2</div>
+              <div className={`${styles.embla__slide}`}>Slide 3</div>
+            </div>
+          </div>
+        </div>
 
         {/* <h1>Мои работы</h1> */}
         {/* <div className={styles.navigationLink}> */}
