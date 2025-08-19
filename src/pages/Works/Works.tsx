@@ -46,9 +46,9 @@ export function Works() {
         <div className={`${styles.rightConteiner}`}>
           <div className={`${styles.embla}`} ref={emblaRef}>
             <div className={`${styles.embla__container}`}>
-              <div className={`${styles.embla__slide}`}>Slide 1</div>
-              <div className={`${styles.embla__slide}`}>Slide 2</div>
-              <div className={`${styles.embla__slide}`}>Slide 3</div>
+              <div className={`${styles.embla__slide} ${styles.active}`}></div>
+              <div className={`${styles.embla__slide}`}></div>
+              <div className={`${styles.embla__slide}`}></div>
             </div>
           </div>
         </div>
