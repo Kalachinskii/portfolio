@@ -118,6 +118,7 @@
   backdrop-filter: blur(38px);
   /* padding-left: 10%; */
   /* border-radius: 50px 0 0 25px; */
+  cursor: grab;
 }
 
 .embla__container {
