@@ -2,7 +2,7 @@
   {
     "id": 1,
     "imageUrl": "/project_scrin/analyz.png",
-    "imageMiniUrl": "/mini_site_pages/red_explorers.png",
+    "imageMiniUrl": "/mini_site_pages/text_analysis.png",
     "title": "text_analysis",
     "technologies": ["React", "TypeScript", "Vite", "HTML5", "CSS3"],
     "links": {

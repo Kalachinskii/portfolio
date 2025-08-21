@@ -14,15 +14,20 @@ export function Works() {
           <div className={`${styles.embla__container}`}>
             {json.map((el) => (
               <NavLink
+                key={el.title}
                 to={`${el.title}`}
+                style={
+                  {
+                    "--slide-mini-image": `url(${el.imageMiniUrl})`,
+                  } as React.CSSProperties
+                }
                 className={({ isActive }) =>
                   isActive
                     ? `${styles.embla__slide} ${styles.active}`
                     : styles.embla__slide
                 }
-              >
-                {el.id}
-              </NavLink>
+                state={{ id: el.id }}
+              />
             ))}
           </div>
         </div>
