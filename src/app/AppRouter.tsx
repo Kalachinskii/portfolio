@@ -9,6 +9,7 @@ import { Layouts } from "../components/layouts/Layouts";
 import { NotFound } from "../pages/NotFound/NotFound";
 import { Works } from "../pages/Works/Works";
 import { CardBox } from "../components/CardBox/CardBox";
+import { ProjectDetail } from "../components/ProjectDetail/ProjectDetail";
 
 const router = createBrowserRouter([
   {
@@ -25,24 +26,8 @@ const router = createBrowserRouter([
     element: <Works />,
     children: [
       {
-        index: true,
-        element: <Navigate to="all" replace />,
-      },
-      {
-        path: "all",
-        element: <CardBox />,
-      },
-      {
-        path: "ts",
-        element: <CardBox sort="TypeScript" />,
-      },
-      {
-        path: "js",
-        element: <CardBox sort="JavaScript" />,
-      },
-      {
-        path: "php",
-        element: <CardBox sort="PHP" />,
+        path: ":name",
+        element: <ProjectDetail />,
       },
     ],
   },
