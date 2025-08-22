@@ -1,236 +1,6 @@
 [
   {
     "id": 1,
-    "imageUrl": "/project_scrin/analyz.png",
-    "imageMiniUrl": "/mini_site_pages/text_analysis.png",
-    "title": "text_analysis",
-    "technologies": ["React", "TypeScript", "Vite", "HTML5", "CSS3"],
-    "links": {
-      "site": "https://kalachinskii.github.io/text_analysis",
-      "git": "https://kalachinskii.github.io/text_analysis"
-    }
-  },
-  {
-    "id": 2,
-    "imageUrl": "/project_scrin/red_explorers.png",
-    "imageMiniUrl": "/mini_site_pages/red_explorers.png",
-    "title": "red_explorers",
-    "technologies": ["HTML5", "CSS3"],
-    "links": {
-      "site": "https://kalachinskii.github.io/Flex/red_explorers/",
-      "git": "https://github.com/Kalachinskii/Flex/tree/main/red_explorers"
-    }
-  },
-  {
-    "id": 3,
-    "imageUrl": "/project_scrin/Deliver_X.png",
-    "imageMiniUrl": "/mini_site_pages/Deliver_X.png",
-    "title": "Deliver_X",
-    "technologies": ["HTML5", "CSS3"],
-    "links": {
-      "site": "https://demo-it-park.ru/kalachinskii/Deliver_X",
-      "git": "https://github.com/Kalachinskii/Deliver_X"
-    }
-  },
-  {
-    "id": 4,
-    "imageUrl": "/project_scrin/Carolina.png",
-    "imageMiniUrl": "/mini_site_pages/Carolina.png",
-    "title": "Carolinas Hall",
-    "technologies": ["Bootstrap", "SCSS", "HTML5", "CSS3"],
-    "links": {
-      "site": "https://kalachinskii.github.io/bootstrapSite",
-      "git": "https://github.com/Kalachinskii/bootstrapSite"
-    }
-  },
-  {
-    "id": 5,
-    "imageUrl": "/project_scrin/Bhagaskara.png",
-    "imageMiniUrl": "/mini_site_pages/Bhagaskara.png",
-    "title": "Bhagaskara",
-    "technologies": ["JavaScript", "SCSS", "HTML5", "CSS3"],
-    "links": {
-      "site": "https://kalachinskii.github.io/Bhagaskara",
-      "git": "https://github.com/Kalachinskii/Bhagaskara"
-    }
-  },
-  {
-    "id": 6,
-    "imageUrl": "/project_scrin/ParalaxEff.png",
-    "imageMiniUrl": "/mini_site_pages/ParalaxEff.png",
-    "title": "Paralax-effect",
-    "technologies": ["JavaScript", "HTML5", "CSS3"],
-    "links": {
-      "site": "https://kalachinskii.github.io/Paralax-effect",
-      "git": "https://github.com/Kalachinskii/Paralax-effect"
-    }
-  },
-  {
-    "id": 7,
-    "imageUrl": "/project_scrin/divisima.png",
-    "imageMiniUrl": "/mini_site_pages/divisima.png",
-    "title": "divisima",
-    "technologies": [
-      "PHP",
-      "MySQL",
-      "REST API",
-      "JavaScript",
-      "Custom Admin Panel",
-      "HTML5",
-      "CSS3"
-    ],
-    "links": {
-      "site": "https://demo-it-park.ru/divisima-shop",
-      "git": "https://github.com/Kalachinskii/divisima"
-    }
-  },
-  {
-    "id": 8,
-    "imageUrl": "/project_scrin/TimerTask.png",
-    "imageMiniUrl": "/mini_site_pages/TimerTask.png",
-    "title": "TimerTask",
-    "technologies": ["React", "JavaScript", "Vite", "HTML5", "CSS3"],
-    "links": {
-      "site": "https://kalachinskii.github.io/TimerTask",
-      "git": "https://github.com/Kalachinskii/TimerTask"
-    }
-  },
-  {
-    "id": 9,
-    "imageUrl": "/project_scrin/Smart_task_timer.png",
-    "imageMiniUrl": "/mini_site_pages/Smart_task_timer.png",
-    "title": "Smart_task_timer",
-    "technologies": [
-      "React",
-      "JavaScript",
-      "Vite",
-      "Swiper.js",
-      "React Countdown Circle Timer",
-      "HTML5",
-      "CSS3"
-    ],
-    "links": {
-      "site": "https://kalachinskii.github.io/-Smart_task_timer",
-      "git": "https://github.com/Kalachinskii/-Smart_task_timer"
-    }
-  },
-  {
-    "id": 10,
-    "imageUrl": "/project_scrin/Journal.png",
-    "imageMiniUrl": "/mini_site_pages/Journal.png",
-    "title": "Journal",
-    "technologies": ["React", "JavaScript", "Vite", "HTML5", "CSS3"],
-    "links": {
-      "site": "https://kalachinskii.github.io/Journal",
-      "git": "https://github.com/Kalachinskii/Journal"
-    }
-  },
-  {
-    "id": 11,
-    "imageUrl": "/project_scrin/ToDoList.png",
-    "imageMiniUrl": "/mini_site_pages/ToDoList.png",
-    "title": "To-do-list",
-    "technologies": ["React", "JavaScript", "HTML5", "CSS3"],
-    "links": {
-      "site": "https://kalachinskii.github.io/ReactTest_To-do-list",
-      "git": "https://github.com/Kalachinskii/ReactTest_To-do-list"
-    }
-  },
-  {
-    "id": 12,
-    "imageUrl": "/project_scrin/rusbir.png",
-    "imageMiniUrl": "/mini_site_pages/rusbir.png",
-    "title": "rusbir",
-    "technologies": ["HTML5", "CSS3"],
-    "links": {
-      "site": "https://kalachinskii.github.io/rusbir",
-      "git": "https://github.com/Kalachinskii/rusbir"
-    }
-  },
-  {
-    "id": 13,
-    "imageUrl": "/project_scrin/instaboti.png",
-    "imageMiniUrl": "/mini_site_pages/instaboti.png",
-    "title": "instaboti",
-    "technologies": ["HTML5", "CSS3"],
-    "links": {
-      "site": "https://kalachinskii.github.io/instaboti",
-      "git": "https://github.com/Kalachinskii/instaboti"
-    }
-  },
-  {
-    "id": 14,
-    "imageUrl": "/project_scrin/addBookList.png",
-    "imageMiniUrl": "/mini_site_pages/addBookList.png",
-    "title": "addBookList",
-    "technologies": ["JavaScript", "HTML5", "CSS3"],
-    "links": {
-      "site": "https://kalachinskii.github.io/addBookList",
-      "git": "https://github.com/Kalachinskii/addBookList"
-    }
-  },
-  {
-    "id": 15,
-    "imageUrl": "/project_scrin/aiGeneratorImage.png",
-    "imageMiniUrl": "/mini_site_pages/aiGeneratorImage.png",
-    "title": "ai_generate_image",
-    "technologies": [
-      "TypeScript",
-      "React",
-      "Vite",
-      "AI/ML",
-      "Transformers.js",
-      "HTML5",
-      "CSS3"
-    ],
-    "links": {
-      "site": "https://kalachinskii.github.io/test_ai_generate_image",
-      "git": "https://github.com/Kalachinskii/test_ai_generate_image"
-    }
-  },
-  {
-    "id": 16,
-    "imageUrl": "/project_scrin/React_films_ribbon.png",
-    "imageMiniUrl": "/mini_site_pages/React_films_ribbon.png",
-    "title": "React_films_ribbon",
-    "technologies": [
-      "React",
-      "JavaScript",
-      "Vite",
-      "Movie API",
-      "Lodash (debounce для поиска)",
-      "HTML5",
-      "CSS3"
-    ],
-    "links": {
-      "site": "https://kalachinskii.github.io/React_films_ribbon",
-      "git": "https://github.com/Kalachinskii/React_films_ribbon"
-    }
-  },
-  {
-    "id": 17,
-    "imageUrl": "/project_scrin/landguru.png",
-    "imageMiniUrl": "/mini_site_pages/landguru.png",
-    "title": "landguru",
-    "technologies": ["HTML5", "CSS3"],
-    "links": {
-      "site": "https://demo-it-park.ru/kalachinskii/landguru",
-      "git": "https://github.com/Kalachinskii/landguru"
-    }
-  },
-  {
-    "id": 18,
-    "imageUrl": "/project_scrin/gtp3.png",
-    "imageMiniUrl": "/mini_site_pages/gtp3.png",
-    "title": "gtp3",
-    "technologies": ["Bootstrap", "HTML5", "CSS3"],
-    "links": {
-      "site": "https://demo-it-park.ru/kalachinskii/gpt-3",
-      "git": "https://github.com/Kalachinskii/gpt-3"
-    }
-  },
-  {
-    "id": 19,
     "imageUrl": "/project_scrin/pizza.png",
     "imageMiniUrl": "/mini_site_pages/pizza.png",
     "title": "Pizza",
@@ -246,6 +16,238 @@
     "links": {
       "site": "https://kalachinskii.github.io/_picca",
       "git": "https://github.com/Kalachinskii/_picca"
+    }
+  },
+  {
+    "id": 2,
+    "imageUrl": "/project_scrin/aiGeneratorImage.png",
+    "imageMiniUrl": "/mini_site_pages/aiGeneratorImage.png",
+    "title": "AI-text-image-generate",
+    "technologies": [
+      "TypeScript",
+      "React",
+      "Vite",
+      "AI/ML",
+      "Transformers.js",
+      "HTML5",
+      "CSS3"
+    ],
+    "links": {
+      "site": "https://kalachinskii.github.io/test_ai_generate_image",
+      "git": "https://github.com/Kalachinskii/test_ai_generate_image"
+    }
+  },
+  {
+    "id": 3,
+    "imageUrl": "/project_scrin/analyz.png",
+    "imageMiniUrl": "/mini_site_pages/text_analysis.png",
+    "title": "Text-analyzer",
+    "technologies": ["React", "TypeScript", "Vite", "HTML5", "CSS3"],
+    "links": {
+      "site": "https://kalachinskii.github.io/text_analysis",
+      "git": "https://kalachinskii.github.io/text_analysis"
+    }
+  },
+  {
+    "id": 4,
+    "imageUrl": "/project_scrin/divisima.png",
+    "imageMiniUrl": "/mini_site_pages/divisima.png",
+    "title": "Divisima",
+    "technologies": [
+      "PHP",
+      "MySQL",
+      "REST API",
+      "JavaScript",
+      "Custom Admin Panel",
+      "HTML5",
+      "CSS3"
+    ],
+    "links": {
+      "site": "https://demo-it-park.ru/divisima-shop",
+      "git": "https://github.com/Kalachinskii/divisima"
+    }
+  },
+  {
+    "id": 5,
+    "imageUrl": "/project_scrin/React_films_ribbon.png",
+    "imageMiniUrl": "/mini_site_pages/React_films_ribbon.png",
+    "title": "Films-ribbon",
+    "technologies": [
+      "React",
+      "JavaScript",
+      "Vite",
+      "Movie API",
+      "Lodash (debounce для поиска)",
+      "HTML5",
+      "CSS3"
+    ],
+    "links": {
+      "site": "https://kalachinskii.github.io/React_films_ribbon",
+      "git": "https://github.com/Kalachinskii/React_films_ribbon"
+    }
+  },
+  {
+    "id": 6,
+    "imageUrl": "/project_scrin/Smart_task_timer.png",
+    "imageMiniUrl": "/mini_site_pages/Smart_task_timer.png",
+    "title": "Smart-task-timer",
+    "technologies": [
+      "React",
+      "JavaScript",
+      "Vite",
+      "Swiper.js",
+      "React Countdown Circle Timer",
+      "HTML5",
+      "CSS3"
+    ],
+    "links": {
+      "site": "https://kalachinskii.github.io/-Smart_task_timer",
+      "git": "https://github.com/Kalachinskii/-Smart_task_timer"
+    }
+  },
+  {
+    "id": 7,
+    "imageUrl": "/project_scrin/TimerTask.png",
+    "imageMiniUrl": "/mini_site_pages/TimerTask.png",
+    "title": "Timer-task",
+    "technologies": ["React", "JavaScript", "Vite", "HTML5", "CSS3"],
+    "links": {
+      "site": "https://kalachinskii.github.io/TimerTask",
+      "git": "https://github.com/Kalachinskii/TimerTask"
+    }
+  },
+  {
+    "id": 8,
+    "imageUrl": "/project_scrin/Journal.png",
+    "imageMiniUrl": "/mini_site_pages/Journal.png",
+    "title": "Journal",
+    "technologies": ["React", "JavaScript", "Vite", "HTML5", "CSS3"],
+    "links": {
+      "site": "https://kalachinskii.github.io/Journal",
+      "git": "https://github.com/Kalachinskii/Journal"
+    }
+  },
+  {
+    "id": 9,
+    "imageUrl": "/project_scrin/ToDoList.png",
+    "imageMiniUrl": "/mini_site_pages/ToDoList.png",
+    "title": "To-do-list",
+    "technologies": ["React", "JavaScript", "HTML5", "CSS3"],
+    "links": {
+      "site": "https://kalachinskii.github.io/ReactTest_To-do-list",
+      "git": "https://github.com/Kalachinskii/ReactTest_To-do-list"
+    }
+  },
+  {
+    "id": 10,
+    "imageUrl": "/project_scrin/addBookList.png",
+    "imageMiniUrl": "/mini_site_pages/addBookList.png",
+    "title": "Add-book-list",
+    "technologies": ["JavaScript", "HTML5", "CSS3"],
+    "links": {
+      "site": "https://kalachinskii.github.io/addBookList",
+      "git": "https://github.com/Kalachinskii/addBookList"
+    }
+  },
+  {
+    "id": 11,
+    "imageUrl": "/project_scrin/Carolina.png",
+    "imageMiniUrl": "/mini_site_pages/Carolina.png",
+    "title": "Carolinas Hall",
+    "technologies": ["Bootstrap", "SCSS", "HTML5", "CSS3"],
+    "links": {
+      "site": "https://kalachinskii.github.io/bootstrapSite",
+      "git": "https://github.com/Kalachinskii/bootstrapSite"
+    }
+  },
+  {
+    "id": 12,
+    "imageUrl": "/project_scrin/Bhagaskara.png",
+    "imageMiniUrl": "/mini_site_pages/Bhagaskara.png",
+    "title": "Bhagaskara",
+    "technologies": ["JavaScript", "SCSS", "HTML5", "CSS3"],
+    "links": {
+      "site": "https://kalachinskii.github.io/Bhagaskara",
+      "git": "https://github.com/Kalachinskii/Bhagaskara"
+    }
+  },
+  {
+    "id": 13,
+    "imageUrl": "/project_scrin/red_explorers.png",
+    "imageMiniUrl": "/mini_site_pages/red_explorers.png",
+    "title": "Red explorers",
+    "technologies": ["HTML5", "CSS3"],
+    "links": {
+      "site": "https://kalachinskii.github.io/Flex/red_explorers/",
+      "git": "https://github.com/Kalachinskii/Flex/tree/main/red_explorers"
+    }
+  },
+  {
+    "id": 14,
+    "imageUrl": "/project_scrin/Deliver_X.png",
+    "imageMiniUrl": "/mini_site_pages/Deliver_X.png",
+    "title": "Deliver X",
+    "technologies": ["HTML5", "CSS3"],
+    "links": {
+      "site": "https://demo-it-park.ru/kalachinskii/Deliver_X",
+      "git": "https://github.com/Kalachinskii/Deliver_X"
+    }
+  },
+
+  {
+    "id": 15,
+    "imageUrl": "/project_scrin/gtp3.png",
+    "imageMiniUrl": "/mini_site_pages/gtp3.png",
+    "title": "GPT-3",
+    "technologies": ["Bootstrap", "HTML5", "CSS3"],
+    "links": {
+      "site": "https://demo-it-park.ru/kalachinskii/gpt-3",
+      "git": "https://github.com/Kalachinskii/gpt-3"
+    }
+  },
+  {
+    "id": 16,
+    "imageUrl": "/project_scrin/landguru.png",
+    "imageMiniUrl": "/mini_site_pages/landguru.png",
+    "title": "Landguru",
+    "technologies": ["HTML5", "CSS3"],
+    "links": {
+      "site": "https://demo-it-park.ru/kalachinskii/landguru",
+      "git": "https://github.com/Kalachinskii/landguru"
+    }
+  },
+  {
+    "id": 17,
+    "imageUrl": "/project_scrin/rusbir.png",
+    "imageMiniUrl": "/mini_site_pages/rusbir.png",
+    "title": "Rusbir",
+    "technologies": ["HTML5", "CSS3"],
+    "links": {
+      "site": "https://kalachinskii.github.io/rusbir",
+      "git": "https://github.com/Kalachinskii/rusbir"
+    }
+  },
+
+  {
+    "id": 18,
+    "imageUrl": "/project_scrin/instaboti.png",
+    "imageMiniUrl": "/mini_site_pages/instaboti.png",
+    "title": "Instaboti",
+    "technologies": ["HTML5", "CSS3"],
+    "links": {
+      "site": "https://kalachinskii.github.io/instaboti",
+      "git": "https://github.com/Kalachinskii/instaboti"
+    }
+  },
+  {
+    "id": 19,
+    "imageUrl": "/project_scrin/ParalaxEff.png",
+    "imageMiniUrl": "/mini_site_pages/ParalaxEff.png",
+    "title": "Paralax-effect",
+    "technologies": ["JavaScript", "HTML5", "CSS3"],
+    "links": {
+      "site": "https://kalachinskii.github.io/Paralax-effect",
+      "git": "https://github.com/Kalachinskii/Paralax-effect"
     }
   }
 ]
