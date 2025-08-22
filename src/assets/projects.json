@@ -24,7 +24,7 @@
   {
     "id": 3,
     "imageUrl": "/project_scrin/Deliver_X.png",
-    "imageMiniUrl": "/mini_site_pages/red_explorers.png",
+    "imageMiniUrl": "/mini_site_pages/Deliver_X.png",
     "title": "Deliver_X",
     "technologies": ["HTML5", "CSS3"],
     "links": {
@@ -35,7 +35,7 @@
   {
     "id": 4,
     "imageUrl": "/project_scrin/Carolina.png",
-    "imageMiniUrl": "/mini_site_pages/red_explorers.png",
+    "imageMiniUrl": "/mini_site_pages/Carolina.png",
     "title": "Carolinas Hall",
     "technologies": ["Bootstrap", "SCSS", "HTML5", "CSS3"],
     "links": {
@@ -46,7 +46,7 @@
   {
     "id": 5,
     "imageUrl": "/project_scrin/Bhagaskara.png",
-    "imageMiniUrl": "/mini_site_pages/red_explorers.png",
+    "imageMiniUrl": "/mini_site_pages/Bhagaskara.png",
     "title": "Bhagaskara",
     "technologies": ["JavaScript", "SCSS", "HTML5", "CSS3"],
     "links": {
@@ -57,7 +57,7 @@
   {
     "id": 6,
     "imageUrl": "/project_scrin/ParalaxEff.png",
-    "imageMiniUrl": "/mini_site_pages/red_explorers.png",
+    "imageMiniUrl": "/mini_site_pages/ParalaxEff.png",
     "title": "Paralax-effect",
     "technologies": ["JavaScript", "HTML5", "CSS3"],
     "links": {
@@ -68,7 +68,7 @@
   {
     "id": 7,
     "imageUrl": "/project_scrin/divisima.png",
-    "imageMiniUrl": "/mini_site_pages/red_explorers.png",
+    "imageMiniUrl": "/mini_site_pages/divisima.png",
     "title": "divisima",
     "technologies": [
       "PHP",
@@ -87,7 +87,7 @@
   {
     "id": 8,
     "imageUrl": "/project_scrin/TimerTask.png",
-    "imageMiniUrl": "/mini_site_pages/red_explorers.png",
+    "imageMiniUrl": "/mini_site_pages/TimerTask.png",
     "title": "TimerTask",
     "technologies": ["React", "JavaScript", "Vite", "HTML5", "CSS3"],
     "links": {
@@ -98,7 +98,7 @@
   {
     "id": 9,
     "imageUrl": "/project_scrin/Smart_task_timer.png",
-    "imageMiniUrl": "/mini_site_pages/red_explorers.png",
+    "imageMiniUrl": "/mini_site_pages/Smart_task_timer.png",
     "title": "Smart_task_timer",
     "technologies": [
       "React",
@@ -117,7 +117,7 @@
   {
     "id": 10,
     "imageUrl": "/project_scrin/Journal.png",
-    "imageMiniUrl": "/mini_site_pages/red_explorers.png",
+    "imageMiniUrl": "/mini_site_pages/Journal.png",
     "title": "Journal",
     "technologies": ["React", "JavaScript", "Vite", "HTML5", "CSS3"],
     "links": {
@@ -128,7 +128,7 @@
   {
     "id": 11,
     "imageUrl": "/project_scrin/ToDoList.png",
-    "imageMiniUrl": "/mini_site_pages/red_explorers.png",
+    "imageMiniUrl": "/mini_site_pages/ToDoList.png",
     "title": "To-do-list",
     "technologies": ["React", "JavaScript", "HTML5", "CSS3"],
     "links": {
@@ -139,7 +139,7 @@
   {
     "id": 12,
     "imageUrl": "/project_scrin/rusbir.png",
-    "imageMiniUrl": "/mini_site_pages/red_explorers.png",
+    "imageMiniUrl": "/mini_site_pages/rusbir.png",
     "title": "rusbir",
     "technologies": ["HTML5", "CSS3"],
     "links": {
@@ -150,7 +150,7 @@
   {
     "id": 13,
     "imageUrl": "/project_scrin/instaboti.png",
-    "imageMiniUrl": "/mini_site_pages/red_explorers.png",
+    "imageMiniUrl": "/mini_site_pages/instaboti.png",
     "title": "instaboti",
     "technologies": ["HTML5", "CSS3"],
     "links": {
@@ -161,7 +161,7 @@
   {
     "id": 14,
     "imageUrl": "/project_scrin/addBookList.png",
-    "imageMiniUrl": "/mini_site_pages/red_explorers.png",
+    "imageMiniUrl": "/mini_site_pages/addBookList.png",
     "title": "addBookList",
     "technologies": ["JavaScript", "HTML5", "CSS3"],
     "links": {
@@ -172,7 +172,7 @@
   {
     "id": 15,
     "imageUrl": "/project_scrin/aiGeneratorImage.png",
-    "imageMiniUrl": "/mini_site_pages/red_explorers.png",
+    "imageMiniUrl": "/mini_site_pages/aiGeneratorImage.png",
     "title": "ai_generate_image",
     "technologies": [
       "TypeScript",
@@ -191,7 +191,7 @@
   {
     "id": 16,
     "imageUrl": "/project_scrin/React_films_ribbon.png",
-    "imageMiniUrl": "/mini_site_pages/red_explorers.png",
+    "imageMiniUrl": "/mini_site_pages/React_films_ribbon.png",
     "title": "React_films_ribbon",
     "technologies": [
       "React",
@@ -210,7 +210,7 @@
   {
     "id": 17,
     "imageUrl": "/project_scrin/landguru.png",
-    "imageMiniUrl": "/mini_site_pages/red_explorers.png",
+    "imageMiniUrl": "/mini_site_pages/landguru.png",
     "title": "landguru",
     "technologies": ["HTML5", "CSS3"],
     "links": {
@@ -221,7 +221,7 @@
   {
     "id": 18,
     "imageUrl": "/project_scrin/gtp3.png",
-    "imageMiniUrl": "/mini_site_pages/red_explorers.png",
+    "imageMiniUrl": "/mini_site_pages/gtp3.png",
     "title": "gtp3",
     "technologies": ["Bootstrap", "HTML5", "CSS3"],
     "links": {
@@ -232,7 +232,7 @@
   {
     "id": 19,
     "imageUrl": "/project_scrin/pizza.png",
-    "imageMiniUrl": "/mini_site_pages/red_explorers.png",
+    "imageMiniUrl": "/mini_site_pages/pizza.png",
     "title": "Pizza",
     "technologies": [
       "TypeScript",
