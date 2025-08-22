@@ -4,6 +4,7 @@
     "imageUrl": "/project_scrin/pizza.png",
     "imageMiniUrl": "/mini_site_pages/pizza.png",
     "title": "Pizza",
+    "description": "Сайт представляет собой интерактивный прототип интернет-магазина пиццы с функционалом выбора товаров и оформления заказа. Исходный код проекта, включая его верстку и логику, открыт для просмотра в репозитории",
     "technologies": [
       "TypeScript",
       "React",
@@ -23,6 +24,7 @@
     "imageUrl": "/project_scrin/aiGeneratorImage.png",
     "imageMiniUrl": "/mini_site_pages/aiGeneratorImage.png",
     "title": "AI-text-image-generate",
+    "description": "Сайт представляет собой веб-приложение для генерации изображений через нейросеть, демонстрирующее работу с внешним AI-API. Исходный код проекта с реализацией запросов и обработки ответов доступен в репозитории",
     "technologies": [
       "TypeScript",
       "React",
@@ -41,17 +43,19 @@
     "id": 3,
     "imageUrl": "/project_scrin/analyz.png",
     "imageMiniUrl": "/mini_site_pages/text_analysis.png",
+    "description": "Сайт представляет собой инструмент для анализа введенного текста, который подсчитывает слова, символы и другие статистические метрики. Исходный код проекта с реализацией логики обработки данных и интерфейса доступен в репозитории",
     "title": "Text-analyzer",
     "technologies": ["React", "TypeScript", "Vite", "HTML5", "CSS3"],
     "links": {
-      "site": "https://kalachinskii.github.io/text_analysis",
-      "git": "https://kalachinskii.github.io/text_analysis"
+      "site": "https://kalachinskii.github.io/text_analysis/",
+      "git": "https://github.com/Kalachinskii/text_analysis"
     }
   },
   {
     "id": 4,
     "imageUrl": "/project_scrin/divisima.png",
     "imageMiniUrl": "/mini_site_pages/divisima.png",
+    "description": "Сайт представляет собой полнофункциональный интернет-магазин с адаптивным дизайном, корзиной товаров и административной панелью для управления контентом. Исходный код проекта, реализующий логику frontend и backend, доступен в репозитории",
     "title": "Divisima",
     "technologies": [
       "PHP",
@@ -71,6 +75,7 @@
     "id": 5,
     "imageUrl": "/project_scrin/React_films_ribbon.png",
     "imageMiniUrl": "/mini_site_pages/React_films_ribbon.png",
+    "description": "Сайт представляет собой одностраничное приложение (SPA) на React для поиска и фильтрации фильмов с использованием API. Исходный код проекта с компонентной структурой и управлением состоянием доступен в репозитории",
     "title": "Films-ribbon",
     "technologies": [
       "React",
@@ -90,6 +95,7 @@
     "id": 6,
     "imageUrl": "/project_scrin/Smart_task_timer.png",
     "imageMiniUrl": "/mini_site_pages/Smart_task_timer.png",
+    "description": "Сайт представляет собой умный таймер для управления задачами с функциями отслеживания времени и уведомлений. Исходный код проекта с реализацией логики таймера и интерфейса доступен в репозитории",
     "title": "Smart-task-timer",
     "technologies": [
       "React",
@@ -109,6 +115,7 @@
     "id": 7,
     "imageUrl": "/project_scrin/TimerTask.png",
     "imageMiniUrl": "/mini_site_pages/TimerTask.png",
+    "description": "Сайт — это веб-приложение для управления задачами и таймерами продуктивности, реализующее методы эффективного планирования времени. Исходный код проекта с компонентами интерфейса и логикой работы таймеров доступен в репозитории",
     "title": "Timer-task",
     "technologies": ["React", "JavaScript", "Vite", "HTML5", "CSS3"],
     "links": {
@@ -120,6 +127,7 @@
     "id": 8,
     "imageUrl": "/project_scrin/Journal.png",
     "imageMiniUrl": "/mini_site_pages/Journal.png",
+    "description": "Сайт представляет собой веб-приложение для ведения личных записей с функциями создания, редактирования и хранения заметок. Исходный код проекта с реализацией интерфейса и логики управления контентом доступен в репозитории",
     "title": "Journal",
     "technologies": ["React", "JavaScript", "Vite", "HTML5", "CSS3"],
     "links": {
@@ -131,6 +139,7 @@
     "id": 9,
     "imageUrl": "/project_scrin/ToDoList.png",
     "imageMiniUrl": "/mini_site_pages/ToDoList.png",
+    "description": "Сайт представляет собой тестовое React-приложение для управления задачами с функциями добавления, удаления и отметки выполнения. Исходный код проекта с компонентной структурой и хуками состояния доступен в репозитории",
     "title": "To-do-list",
     "technologies": ["React", "JavaScript", "HTML5", "CSS3"],
     "links": {
@@ -142,6 +151,7 @@
     "id": 10,
     "imageUrl": "/project_scrin/addBookList.png",
     "imageMiniUrl": "/mini_site_pages/addBookList.png",
+    "description": "Сайт https://kalachinskii.github.io/addBookList представляет собой веб-приложение для управления персональной библиотекой с функциями добавления, поиска и сортировки книг. Исходный код проекта с реализацией интерфейса и логики хранения данных доступен в репозитории",
     "title": "Add-book-list",
     "technologies": ["JavaScript", "HTML5", "CSS3"],
     "links": {
@@ -153,6 +163,7 @@
     "id": 11,
     "imageUrl": "/project_scrin/Carolina.png",
     "imageMiniUrl": "/mini_site_pages/Carolina.png",
+    "description": "Сайт представляет собой адаптивный лендинг, созданный с использованием фреймворка Bootstrap для демонстрации возможностей верстки. Исходный код проекта с компонентами и стилями доступен в репозитории",
     "title": "Carolinas Hall",
     "technologies": ["Bootstrap", "SCSS", "HTML5", "CSS3"],
     "links": {
@@ -164,6 +175,7 @@
     "id": 12,
     "imageUrl": "/project_scrin/Bhagaskara.png",
     "imageMiniUrl": "/mini_site_pages/Bhagaskara.png",
+    "description": "Сайт представляет собой современный адаптивный лендинг для бизнеса, созданный с использованием HTML5, CSS3 и JavaScript. Исходный код проекта с реализацией интерактивных элементов и верстки доступен в репозитории",
     "title": "Bhagaskara",
     "technologies": ["JavaScript", "SCSS", "HTML5", "CSS3"],
     "links": {
@@ -175,6 +187,7 @@
     "id": 13,
     "imageUrl": "/project_scrin/red_explorers.png",
     "imageMiniUrl": "/mini_site_pages/red_explorers.png",
+    "description": "Сайт представляет собой адаптивный лендинг туристической тематики, сверстанный с использованием технологии Flexbox. Исходный код проекта с примерами реализации гибкой модульной сетки доступен в репозитории",
     "title": "Red explorers",
     "technologies": ["HTML5", "CSS3"],
     "links": {
@@ -186,6 +199,7 @@
     "id": 14,
     "imageUrl": "/project_scrin/Deliver_X.png",
     "imageMiniUrl": "/mini_site_pages/Deliver_X.png",
+    "description": "Сайт представляет собой многостраничный лендинг службы доставки с адаптивным дизайном, формой заказа и интерактивными элементами. Исходный код проекта с вёрсткой и клиентской логикой доступен в репозитории",
     "title": "Deliver X",
     "technologies": ["HTML5", "CSS3"],
     "links": {
@@ -198,6 +212,7 @@
     "id": 15,
     "imageUrl": "/project_scrin/gtp3.png",
     "imageMiniUrl": "/mini_site_pages/gtp3.png",
+    "description": "Сайт представляет собой современный адаптивный лендинг, посвященный технологии GPT-3, с интерактивными элементами и анимациями. Исходный код проекта с реализацией компонентов и стилей доступен в репозитории",
     "title": "GPT-3",
     "technologies": ["Bootstrap", "HTML5", "CSS3"],
     "links": {
@@ -209,6 +224,7 @@
     "id": 16,
     "imageUrl": "/project_scrin/landguru.png",
     "imageMiniUrl": "/mini_site_pages/landguru.png",
+    "description": "Сайт представляет собой адаптивный лендинг для цифрового сервиса, созданный с использованием современного стека веб-технологий. Исходный код проекта с компонентной структурой и стилизацией доступен в репозитории",
     "title": "Landguru",
     "technologies": ["HTML5", "CSS3"],
     "links": {
@@ -220,6 +236,7 @@
     "id": 17,
     "imageUrl": "/project_scrin/rusbir.png",
     "imageMiniUrl": "/mini_site_pages/rusbir.png",
+    "description": "Сайт представляет собой лендинг для бизнеса или услуги, созданный с использованием современных веб-технологий. Исходный код проекта с реализацией адаптивного дизайна и интерактивных элементов доступен в репозитории",
     "title": "Rusbir",
     "technologies": ["HTML5", "CSS3"],
     "links": {
@@ -232,6 +249,7 @@
     "id": 18,
     "imageUrl": "/project_scrin/instaboti.png",
     "imageMiniUrl": "/mini_site_pages/instaboti.png",
+    "description": "Сайт представляет собой лендинг для сервиса автоматизации Instagram с описанием функционала и преимуществ. Исходный код проекта с реализацией адаптивного интерфейса и интерактивных элементов доступен в репозитории",
     "title": "Instaboti",
     "technologies": ["HTML5", "CSS3"],
     "links": {
@@ -243,6 +261,7 @@
     "id": 19,
     "imageUrl": "/project_scrin/ParalaxEff.png",
     "imageMiniUrl": "/mini_site_pages/ParalaxEff.png",
+    "description": "Сайт представляет собой интерактивный лендинг с параллакс-эффектом, где движение курсора создает иллюзию плавания лодки по воде. Исходный код проекта с реализацией анимаций на чистом JavaScript и CSS доступен в репозитории",
     "title": "Paralax-effect",
     "technologies": ["JavaScript", "HTML5", "CSS3"],
     "links": {

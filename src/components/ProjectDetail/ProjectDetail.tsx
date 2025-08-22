@@ -22,12 +22,7 @@ export const ProjectDetail = () => {
         {/* будет меняться */}
         <div className={`${styles.leftConteiner}`}>
           <h1 className={`${styles.title}`}>{project?.title}</h1>
-          <p className={`${styles.about}`}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae,
-            voluptatum eos. Rerum saepe iusto veniam eaque neque iure, ratione
-            minima placeat voluptates impedit sequi aut ipsum soluta ex
-            assumenda quam.
-          </p>
+          <p className={`${styles.about}`}>{project?.description}</p>
           <div className={styles.box}>
             {project?.technologies.map((name) => (
               <span key={name} className={styles.texnology}>
