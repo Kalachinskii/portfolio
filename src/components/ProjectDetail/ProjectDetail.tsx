@@ -19,7 +19,6 @@ export const ProjectDetail = () => {
         className={`${styles.box} ${styles.imageCover}`}
       ></div>
       <div className={`${styles.circle}`}>
-        {/* будет меняться */}
         <div className={`${styles.leftConteiner}`}>
           <h1 className={`${styles.title}`}>{project?.title}</h1>
           <p className={`${styles.about}`}>{project?.description}</p>
