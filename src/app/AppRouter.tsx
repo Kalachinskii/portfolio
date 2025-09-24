@@ -8,7 +8,6 @@ import { Hero } from "../pages/Hero/Hero";
 import { Layouts } from "../components/layouts/Layouts";
 import { NotFound } from "../pages/NotFound/NotFound";
 import { Works } from "../pages/Works/Works";
-import { CardBox } from "../components/CardBox/CardBox";
 import { ProjectDetail } from "../components/ProjectDetail/ProjectDetail";
 
 const router = createBrowserRouter([
@@ -19,15 +18,23 @@ const router = createBrowserRouter([
         path: ROUTES.HERO,
         element: <Hero />,
       },
-    ],
-  },
-  {
-    path: ROUTES.PROJECTS,
-    element: <Works />,
-    children: [
       {
-        path: ":name",
-        element: <ProjectDetail />,
+        path: ROUTES.PROJECTS,
+        element: <Works />,
+        children: [
+          {
+            index: true,
+            element: <Navigate to="Pizza" replace />,
+          },
+          {
+            path: ":name",
+            element: <ProjectDetail />,
+          },
+          {
+            path: "*",
+            element: <Navigate to={ROUTES.NOT_FOUND} replace />,
+          },
+        ],
       },
     ],
   },

@@ -31,17 +31,7 @@ export function Works() {
             ))}
           </div>
         </div>
-        {/* <div>a</div> */}
       </div>
     </div>
   );
 }
-
-/*
-  const navigation = [
-    { name: "Все", link: "all" },
-    { name: "TS", link: "ts" },
-    { name: "JS", link: "js" },
-    { name: "PHP", link: "php" },
-  ];
-*/

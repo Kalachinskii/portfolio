@@ -1,5 +1,4 @@
 import styles from "./Hero.module.css";
-import { Nav } from "../../components/Nav/Nav";
 
 export function Hero() {
   return (
@@ -12,8 +11,6 @@ export function Hero() {
           <span> TypeScript</span>
         </h1>
       </div>
-
-      <Nav />
     </>
   );
 }
