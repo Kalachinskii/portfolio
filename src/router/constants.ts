@@ -5,4 +5,5 @@ export const ROUTES = {
   ME: "me",
   CONNECT: "connect",
   NOT_FOUND: "*",
+  DEFAULT_PROJECT: "Pizza",
 };

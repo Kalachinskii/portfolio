@@ -1,6 +1,6 @@
 .worksConteiner {
-  /* background-color: #000; */
-  /* backdrop-filter: blur(38px); */
+  background-color: #000;
+  backdrop-filter: blur(38px);
   color: var(--white-color);
   width: 100%;
   height: 100%;

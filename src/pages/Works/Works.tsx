@@ -1,9 +1,10 @@
 import { NavLink, Outlet } from "react-router-dom";
 import styles from "./Works.module.css";
-import json from "../../assets/projects.json";
 import useEmblaCarousel from "embla-carousel-react";
+import { useProjectStore } from "../../store/store";
 
 export function Works() {
+  const { projects } = useProjectStore();
   const [emblaRef] = useEmblaCarousel();
 
   return (
@@ -12,7 +13,7 @@ export function Works() {
       <div className={`${styles.rightConteiner}`}>
         <div className={`${styles.embla}`} ref={emblaRef}>
           <div className={`${styles.embla__container}`}>
-            {json.map((el) => (
+            {projects.map((el) => (
               <NavLink
                 key={el.title}
                 to={`${el.title}`}

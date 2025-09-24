@@ -24,7 +24,7 @@ const router = createBrowserRouter([
         children: [
           {
             index: true,
-            element: <Navigate to="Pizza" replace />,
+            element: <Navigate to={ROUTES.DEFAULT_PROJECT} replace />,
           },
           {
             path: ":name",
