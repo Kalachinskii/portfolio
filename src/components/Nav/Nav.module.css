@@ -25,3 +25,7 @@
 .navLink:last-child {
   margin-right: 55px;
 }
+
+.active {
+  color: red;
+}

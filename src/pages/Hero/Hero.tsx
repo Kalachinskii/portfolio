@@ -1,10 +1,7 @@
-import { useNavigate } from "react-router-dom";
 import styles from "./Hero.module.css";
-import { ROUTES } from "../../router/constants";
+import { Nav } from "../../components/Nav/Nav";
 
 export function Hero() {
-  const navigate = useNavigate();
-
   return (
     <>
       {/* 1. Hero-секция (фон + приветствие) */}
@@ -16,10 +13,7 @@ export function Hero() {
         </h1>
       </div>
 
-      <div
-        className={styles.scrolBrn}
-        onClick={() => navigate(ROUTES.PROJECTS)}
-      ></div>
+      <Nav />
     </>
   );
 }
