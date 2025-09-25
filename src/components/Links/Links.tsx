@@ -5,6 +5,8 @@ interface LinksProps {
   children: React.ReactNode;
   href: string;
   className?: string;
+  target?: string;
+  rel?: string;
 }
 
 export const Links = ({
@@ -12,9 +14,16 @@ export const Links = ({
   children,
   href,
   className = "",
+  target,
+  rel,
 }: LinksProps) => {
   return (
-    <a href={href} className={`${styles.link} ${styles.gitLink} ${className}`}>
+    <a
+      href={href}
+      className={`${styles.link} ${styles.gitLink} ${className}`}
+      target={target}
+      rel={rel}
+    >
       <i className={`${iconName} ${styles.icon}`}></i> {children}
     </a>
   );

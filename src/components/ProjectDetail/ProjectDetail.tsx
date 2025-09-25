@@ -1,20 +1,12 @@
 import { Links } from "../../components/Links/Links";
 import json from "../../assets/projects.json";
 import styles from "./ProjectDetail.module.css";
-import { useLocation, useNavigate } from "react-router-dom";
-import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 
 export const ProjectDetail = () => {
-  // const navigate = useNavigate();
   const location = useLocation();
   const id = location.state?.id | 0;
   const project = json.find((item) => item.id === id);
-
-  // useEffect(() => {
-  //   if (!activeProject && projects.length > 0) {
-  //     navigate(ROUTES.DEFAULT_PROJECT, { replace: true });
-  //   }
-  // }, []);
 
   return (
     <>
@@ -42,10 +34,17 @@ export const ProjectDetail = () => {
               className={styles.link}
               iconName="fa-brands fa-github"
               href={`${project?.links.git}`}
+              target="_blank"
+              rel="noopener noreferrer"
             >
               Гит
             </Links>
-            <Links iconName="fa-solid fa-globe" href={`${project?.links.site}`}>
+            <Links
+              iconName="fa-solid fa-globe"
+              href={`${project?.links.site}`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Сайт
             </Links>
           </div>
