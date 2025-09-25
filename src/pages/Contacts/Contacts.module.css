@@ -1,0 +1,39 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.centerBox {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+/* В вашем CSS модуле */
+.messageTextarea {
+  width: 100%;
+  max-width: 100%;
+  min-height: 120px;
+  max-height: 300px;
+  resize: vertical;
+  padding: 12px;
+  /* border: 1px solid #ccc; */
+  /* border-radius: 4px; */
+  font-family: inherit;
+  font-size: 14px;
+
+  /* Управление переносами */
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+
+  /* Скролл при переполнении */
+  overflow-y: auto;
+}
+
+.messageTextareaNoResize {
+  resize: none;
+}
