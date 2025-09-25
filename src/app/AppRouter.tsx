@@ -9,6 +9,8 @@ import { Layouts } from "../components/layouts/Layouts";
 import { NotFound } from "../pages/NotFound/NotFound";
 import { Works } from "../pages/Works/Works";
 import { ProjectDetail } from "../components/ProjectDetail/ProjectDetail";
+import { About } from "../pages/About/About";
+import { Contacts } from "../pages/Contacts/Contacts";
 
 const router = createBrowserRouter([
   {
@@ -35,6 +37,14 @@ const router = createBrowserRouter([
             element: <Navigate to={ROUTES.NOT_FOUND} replace />,
           },
         ],
+      },
+      {
+        path: ROUTES.ABOUT,
+        element: <About />,
+      },
+      {
+        path: ROUTES.CONTACTS,
+        element: <Contacts />,
       },
     ],
   },

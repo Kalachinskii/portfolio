@@ -4,9 +4,10 @@ import { ROUTES } from "../../router/constants";
 
 export function Nav() {
   const links = [
+    { name: "Главная", link: ROUTES.HERO },
     { name: "Работы", link: ROUTES.PROJECTS },
-    { name: "О себе", link: ROUTES.ME },
-    { name: "Контакт", link: ROUTES.CONNECT },
+    { name: "О себе", link: ROUTES.ABOUT },
+    { name: "Контакт", link: ROUTES.CONTACTS },
   ];
 
   return (
