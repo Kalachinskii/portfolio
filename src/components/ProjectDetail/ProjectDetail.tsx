@@ -1,12 +1,20 @@
 import { Links } from "../../components/Links/Links";
 import json from "../../assets/projects.json";
 import styles from "./ProjectDetail.module.css";
-import { useLocation } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
+import { useEffect } from "react";
 
 export const ProjectDetail = () => {
+  // const navigate = useNavigate();
   const location = useLocation();
-  const id = location.state?.id;
+  const id = location.state?.id | 0;
   const project = json.find((item) => item.id === id);
+
+  // useEffect(() => {
+  //   if (!activeProject && projects.length > 0) {
+  //     navigate(ROUTES.DEFAULT_PROJECT, { replace: true });
+  //   }
+  // }, []);
 
   return (
     <>
