@@ -1,14 +1,11 @@
 .container {
   display: flex;
-  /* align-items: end; */
   width: 100%;
   min-height: 100vh;
   color: #fff;
 }
 
 .leftBox {
-  /* margin-top: 10vh; */
-  /* min-height: 90vh; */
   display: flex;
   flex-direction: column;
   width: 20%;
@@ -19,7 +16,6 @@
   width: 100%;
   height: 30%;
   align-self: center;
-  /* border: 1px solid red; */
 }
 
 .rightBox {
