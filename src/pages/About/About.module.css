@@ -211,6 +211,11 @@
   color: #74b9ff;
 }
 
+.skillItem li img {
+  height: 45px;
+  width: 45px;
+}
+
 .skillItem img {
   width: 32px;
   height: 32px;

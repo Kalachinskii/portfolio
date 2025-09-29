@@ -5,10 +5,8 @@ export const About = () => {
     <div className={styles.container}>
       <div className={styles.leftBox}>
         <img src="/miAvatar.png" alt="фотография" />
-        <p>
-          Меня зовут Владислав — Я превращаю дизайн в удобный и доступный
-          интерфейс с помощью React и TypeScript
-        </p>
+        <h1>Frontend Developer (React/Next.js)</h1>
+        <p>Создаю современные веб-приложения на React, TypeScript и Next.js</p>
       </div>
       <div className={styles.rightBox}>
         <h1 style={{ textAlign: "center" }}>Квалификация</h1>
@@ -130,12 +128,20 @@ export const About = () => {
                     <span>Redux</span>
                   </li>
                   <li className={styles.skillItem}>
+                    <img src="/icon/zustand.png" alt="Zustand" />
+                    <span>Zustand</span>
+                  </li>
+                  <li className={styles.skillItem}>
                     <img src="/icon/phaser.png" alt="Phaser.js" />
                     <span>Phaser.js</span>
                   </li>
                   <li className={styles.skillItem}>
                     <i className="fa-brands fa-sass" aria-hidden="true"></i>
                     <span>SASS</span>
+                  </li>
+                  <li className={styles.skillItem}>
+                    <img src="/icon/tailwind-css.png" alt="Tailwind CSS" />
+                    <span>Tailwind CSS</span>
                   </li>
                   <li className={styles.skillItem}>
                     <i
