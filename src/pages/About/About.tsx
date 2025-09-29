@@ -118,12 +118,20 @@ export const About = () => {
                     <span>React</span>
                   </li>
                   <li className={styles.skillItem}>
+                    <img src="/icon/next.svg" alt="Next.js" />
+                    <span>Next.js</span>
+                  </li>
+                  <li className={styles.skillItem}>
                     <img src="/icon/typescript.svg" alt="TypeScript" />
                     <span>TypeScript</span>
                   </li>
                   <li className={styles.skillItem}>
                     <img src="/icon/redux.svg" alt="Redux" />
                     <span>Redux</span>
+                  </li>
+                  <li className={styles.skillItem}>
+                    <img src="/icon/phaser.png" alt="Phaser.js" />
+                    <span>Phaser.js</span>
                   </li>
                   <li className={styles.skillItem}>
                     <i className="fa-brands fa-sass" aria-hidden="true"></i>
@@ -161,6 +169,10 @@ export const About = () => {
                   <li className={styles.skillItem}>
                     <i className="fa-brands fa-laravel" aria-hidden="true"></i>
                     <span>Laravel</span>
+                  </li>
+                  <li className={styles.skillItem}>
+                    <img src="/icon/prisma.png" alt="Prisma" />
+                    <span>Prisma</span>
                   </li>
                   <li className={styles.skillItem}>
                     <img src="/icon/mysql.svg" alt="MySQL" />
