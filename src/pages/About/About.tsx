@@ -8,7 +8,7 @@ import {
   frontendSkillsData,
   toolsSkillsData,
 } from "./Data/skillsData";
-import { worksData } from "./Data/WorksData";
+import { worksData } from "./Data/worksData";
 
 export const About = () => {
   return (

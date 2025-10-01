@@ -6,56 +6,44 @@ import {
 import { ROUTES } from "../router/constants";
 import { Layouts } from "../components/layouts/Layouts";
 import { NotFound } from "../pages/NotFound/NotFound";
-import { lazy, Suspense, type ComponentType } from "react";
+import { lazy, Suspense } from "react";
+import { LoadingSpinner } from "../components/LoadingSpinner/LoadingSpinner";
 
-// const lazyLoad = (path, componentName) => lazy(() => import(path).then(module => ({ default: module[componentName] })));
-const lazyLoad = <T extends ComponentType<any>>(
-  path: string,
-  componentName: string
-) => {
-  return lazy(() =>
-    // const Hero = lazyLoad("../pages/Hero/Hero", "Hero");
-    // { Hero: () => <div>Hero Component</div>,  }
-    // module["Hero"]
-    import(path).then((module: { [key: string]: ComponentType<any> }) => ({
-      default: module[componentName] as T,
-    }))
-  );
-};
-
-const Hero = lazyLoad("../pages/Hero/Hero", "Hero");
-const Works = lazyLoad("../pages/Works/Works", "Works");
-const ProjectDetail = lazyLoad(
-  "../components/ProjectDetail/ProjectDetail",
-  "ProjectDetail"
+const Hero = lazy(() =>
+  import("../pages/Hero/Hero").then((module) => ({ default: module.Hero }))
 );
-const About = lazyLoad("../pages/About/About", "About");
-const Contacts = lazyLoad("../pages/Contacts/Contacts", "Contacts");
-
-const LoadingSpinner = () => (
-  <div
-    style={{
-      display: "flex",
-      justifyContent: "center",
-      alignItems: "center",
-      height: "50vh",
-    }}
-  >
-    <div>Загрузка...</div>
-  </div>
+const Works = lazy(() =>
+  import("../pages/Works/Works").then((module) => ({ default: module.Works }))
+);
+const ProjectDetail = lazy(() =>
+  import("../components/ProjectDetail/ProjectDetail").then((module) => ({
+    default: module.ProjectDetail,
+  }))
+);
+const About = lazy(() =>
+  import("../pages/About/About").then((module) => ({ default: module.About }))
+);
+const Contacts = lazy(() =>
+  import("../pages/Contacts/Contacts").then((module) => ({
+    default: module.Contacts,
+  }))
 );
 
 const router = createBrowserRouter([
   {
-    element: (
-      <Suspense fallback={<LoadingSpinner />}>
-        <Layouts />
-      </Suspense>
-    ),
+    element: <Layouts />,
     children: [
       {
         path: ROUTES.HERO,
-        element: <Hero />,
+        element: (
+          <Suspense fallback={<LoadingSpinner />}>
+            <Hero />
+          </Suspense>
+        ),
+      },
+      {
+        path: ROUTES.ABOUT,
+        element: <About />,
       },
       {
         path: ROUTES.PROJECTS,
@@ -74,10 +62,6 @@ const router = createBrowserRouter([
             element: <Navigate to={ROUTES.NOT_FOUND} replace />,
           },
         ],
-      },
-      {
-        path: ROUTES.ABOUT,
-        element: <About />,
       },
       {
         path: ROUTES.CONTACTS,
