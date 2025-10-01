@@ -3,14 +3,7 @@ import styles from "./About.module.css";
 export const About = () => {
   return (
     <div className={styles.container}>
-      <div className={styles.leftBox}>
-        <img src="/miAvatar.png" alt="фотография" />
-        <h1>Frontend Developer (React/Next.js)</h1>
-        <p>Создаю современные веб-приложения на React, TypeScript и Next.js</p>
-      </div>
       <div className={styles.rightBox}>
-        <h1 style={{ textAlign: "center" }}>Квалификация</h1>
-        <br />
         <div className={styles.qualificationBox}>
           <div className={styles.education}>
             <h2>Образование</h2>
@@ -58,31 +51,35 @@ export const About = () => {
                   <h4>Специалист 1 разряда правового отдела</h4>
                   <h5>Апрель 2018 — Июнь 2022 (4 года и 3 месяца)</h5>
                   <p>
-                    Опыт работы в государственной службе развил ключевые для
-                    IT-сферы гибкие навыки:
+                    Опыт работы в государственной службе развил ключевые гибкие
+                    навыки:
                   </p>
                   <ul className={styles.skillsList}>
                     <li>
-                      <strong>Ответственность:</strong> работа с
-                      конфиденциальными данными и ведение дел, где ошибки имели
-                      серьезные последствия.
+                      <strong>Ответственность:</strong>
+                      <br />
+                      работа с конфиденциальными данными и ведение дел, где
+                      ошибки имели серьезные последствия.
                     </li>
                     <li>
                       <strong>
                         Многозадачность и управление приоритетами:
                       </strong>
+                      <br />
                       одновременное ведение десятков судебных дел и проверок на
                       разных стадиях.
                     </li>
                     <li>
-                      <strong>Обучаемость:</strong> быстрое освоение сложных
-                      правовых норм и постоянное самостоятельное изучение
-                      изменений в законодательстве.
+                      <strong>Обучаемость:</strong>
+                      <br />
+                      быстрое освоение сложных правовых норм и постоянное
+                      самостоятельное изучение изменений в законодательстве.
                     </li>
                     <li>
-                      <strong>Работа в команде:</strong> эффективное
-                      взаимодействие с коллегами из разных отделов для
-                      достижения общих целей.
+                      <strong>Работа в команде:</strong>
+                      <br />
+                      эффективное взаимодействие с коллегами из разных отделов
+                      для достижения общих целей.
                     </li>
                   </ul>
                 </div>
@@ -93,7 +90,7 @@ export const About = () => {
         <br />
         <div className={styles.texnology}>
           <section className={styles.skills}>
-            <h2>Навыки и технологии</h2>
+            <h1>Навыки и технологии</h1>
 
             <div className={styles.skillsGrid}>
               <article className={styles.skillCategory}>
