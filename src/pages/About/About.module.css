@@ -30,31 +30,6 @@
   background: #e0e0e0;
 }
 
-.timelineItem {
-  position: relative;
-  padding-left: 50px;
-  margin-bottom: 30px;
-}
-
-.timelineItem::before {
-  content: "";
-  position: absolute;
-  left: 16px;
-  top: 5px;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background: #007acc;
-  border: 3px solid white;
-  box-shadow: 0 0 0 2px #007acc;
-}
-
-.timelineContent {
-  padding: 15px;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
 .frontBoxSkills,
 .backBoxSkill,
 .designBoxSkills {
@@ -70,53 +45,6 @@
   padding: 10px 20px;
   background: rgb(46, 46, 72);
   border-radius: 25px;
-}
-
-.timelineContent h3 {
-  color: #ffffff;
-  margin-bottom: 5px;
-  font-size: 1.2em;
-}
-
-.timelineContent h4 {
-  color: #636e72;
-  margin-bottom: 5px;
-  font-size: 1.1em;
-  font-weight: 500;
-}
-
-.timelineContent h5 {
-  color: #74b9ff;
-  margin-bottom: 15px;
-  font-size: 0.9em;
-}
-
-.timelineContent p {
-  color: #ffffffcb;
-  line-height: 1.5;
-  margin-bottom: 15px;
-}
-
-.skillsList {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.skillsList li {
-  padding: 8px 0;
-  border-bottom: 1px solid #e0e0e0;
-  line-height: 1.4;
-}
-
-.skillsList li:last-child {
-  border-bottom: none;
-}
-
-.skillsList strong {
-  color: #0fd108;
-  display: inline-block;
-  min-width: 120px;
 }
 
 .skills {
@@ -170,47 +98,6 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
   gap: 15px;
-}
-
-.skillItem {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 15px 10px;
-  background: #f8f9fa;
-  border-radius: 8px;
-  transition: all 0.3s ease;
-  text-align: center;
-}
-
-.skillItem:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
-  background: #e9ecef;
-}
-
-.skillItem i,
-.skillItem img {
-  font-size: 2em;
-  margin-bottom: 8px;
-  color: #74b9ff;
-}
-
-.skillItem li img {
-  height: 45px;
-  width: 45px;
-}
-
-.skillItem img {
-  width: 32px;
-  height: 32px;
-  object-fit: contain;
-}
-
-.skillItem span {
-  font-size: 0.9em;
-  font-weight: 500;
-  color: #2d3436;
 }
 
 /* Адаптивность */

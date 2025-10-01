@@ -1,0 +1,40 @@
+.skillItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px 10px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.skillItem:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  background: #e9ecef;
+}
+
+.skillItem i,
+.skillItem img {
+  font-size: 2em;
+  margin-bottom: 8px;
+  color: #74b9ff;
+}
+
+.skillItem li img {
+  height: 45px;
+  width: 45px;
+}
+
+.skillItem img {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+}
+
+.skillItem span {
+  font-size: 0.9em;
+  font-weight: 500;
+  color: #2d3436;
+}
