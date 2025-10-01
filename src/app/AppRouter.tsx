@@ -4,17 +4,54 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import { ROUTES } from "../router/constants";
-import { Hero } from "../pages/Hero/Hero";
 import { Layouts } from "../components/layouts/Layouts";
 import { NotFound } from "../pages/NotFound/NotFound";
-import { Works } from "../pages/Works/Works";
-import { ProjectDetail } from "../components/ProjectDetail/ProjectDetail";
-import { About } from "../pages/About/About";
-import { Contacts } from "../pages/Contacts/Contacts";
+import { lazy, Suspense, type ComponentType } from "react";
+
+// const lazyLoad = (path, componentName) => lazy(() => import(path).then(module => ({ default: module[componentName] })));
+const lazyLoad = <T extends ComponentType<any>>(
+  path: string,
+  componentName: string
+) => {
+  return lazy(() =>
+    // const Hero = lazyLoad("../pages/Hero/Hero", "Hero");
+    // { Hero: () => <div>Hero Component</div>,  }
+    // module["Hero"]
+    import(path).then((module: { [key: string]: ComponentType<any> }) => ({
+      default: module[componentName] as T,
+    }))
+  );
+};
+
+const Hero = lazyLoad("../pages/Hero/Hero", "Hero");
+const Works = lazyLoad("../pages/Works/Works", "Works");
+const ProjectDetail = lazyLoad(
+  "../components/ProjectDetail/ProjectDetail",
+  "ProjectDetail"
+);
+const About = lazyLoad("../pages/About/About", "About");
+const Contacts = lazyLoad("../pages/Contacts/Contacts", "Contacts");
+
+const LoadingSpinner = () => (
+  <div
+    style={{
+      display: "flex",
+      justifyContent: "center",
+      alignItems: "center",
+      height: "50vh",
+    }}
+  >
+    <div>Загрузка...</div>
+  </div>
+);
 
 const router = createBrowserRouter([
   {
-    element: <Layouts />,
+    element: (
+      <Suspense fallback={<LoadingSpinner />}>
+        <Layouts />
+      </Suspense>
+    ),
     children: [
       {
         path: ROUTES.HERO,
