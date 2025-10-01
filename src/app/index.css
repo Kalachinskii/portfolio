@@ -14,3 +14,17 @@ body {
   font-weight: 600;
   font-style: normal;
 }
+
+html {
+  scrollbar-width: thin;
+  scrollbar-color: #5c6679 #2d3748;
+  overflow-y: scroll;
+}
+
+html::-webkit-scrollbar {
+  width: 4px;
+}
+
+html::-webkit-scrollbar-thumb:hover {
+  background: #718096;
+}
