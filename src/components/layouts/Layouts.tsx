@@ -1,13 +1,16 @@
-import { Outlet } from "react-router-dom";
+import { Outlet, useLocation } from "react-router-dom";
 import Cover from "../Cover/Cover";
 import { Nav } from "../Nav/Nav";
 
 export function Layouts() {
+  const location = useLocation();
+  const isProjectsPage = location.pathname.includes("/projects");
+
   return (
     <>
       <Nav />
-      {/* <SocialLinks /> */}
-      <Cover />
+      {/* убераем видео фон для проектов т.к. Image всеравно его перекроет */}
+      {!isProjectsPage && <Cover />}
       <Outlet />
     </>
   );
