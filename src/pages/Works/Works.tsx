@@ -1,19 +1,17 @@
 import { NavLink, Outlet, useNavigate } from "react-router-dom";
 import styles from "./Works.module.css";
 import useEmblaCarousel from "embla-carousel-react";
-// import { useProjectStore } from "../../store/store";
 import { useEffect, useMemo } from "react";
 import json from "../../assets/projects.json";
 
 export function Works() {
   const navigate = useNavigate();
-  // const { projects } = useProjectStore();
 
   // Используем useMemo для дорогих вычислений
   const [emblaRef] = useEmblaCarousel();
 
   const shouldRedirect =
-    json.length > 0 && location.pathname.endsWith("/projects/Pizza");
+    json.length > 0 && window.location.pathname.endsWith("/projects/Pizza");
 
   useEffect(() => {
     if (shouldRedirect) {
@@ -22,7 +20,7 @@ export function Works() {
         replace: true,
       });
     }
-  }, [shouldRedirect, json, navigate]);
+  }, [shouldRedirect, navigate]);
 
   // Мемоизируем стили
   const slides = useMemo(
