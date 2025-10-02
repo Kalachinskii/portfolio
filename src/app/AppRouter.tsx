@@ -43,11 +43,19 @@ const router = createBrowserRouter([
       },
       {
         path: ROUTES.ABOUT,
-        element: <About />,
+        element: (
+          <Suspense fallback={<LoadingSpinner />}>
+            <About />
+          </Suspense>
+        ),
       },
       {
         path: ROUTES.PROJECTS,
-        element: <Works />,
+        element: (
+          <Suspense fallback={<LoadingSpinner />}>
+            <Works />
+          </Suspense>
+        ),
         children: [
           {
             index: true,
@@ -55,7 +63,11 @@ const router = createBrowserRouter([
           },
           {
             path: ":name",
-            element: <ProjectDetail />,
+            element: (
+              <Suspense fallback={<LoadingSpinner />}>
+                <ProjectDetail />
+              </Suspense>
+            ),
           },
           {
             path: "*",
@@ -65,13 +77,21 @@ const router = createBrowserRouter([
       },
       {
         path: ROUTES.CONTACTS,
-        element: <Contacts />,
+        element: (
+          <Suspense fallback={<LoadingSpinner />}>
+            <Contacts />
+          </Suspense>
+        ),
       },
     ],
   },
   {
     path: ROUTES.NOT_FOUND,
-    element: <NotFound />,
+    element: (
+      <Suspense fallback={<LoadingSpinner />}>
+        <NotFound />
+      </Suspense>
+    ),
   },
 ]);
 
