@@ -10,17 +10,15 @@ export function Works() {
   // Используем useMemo для дорогих вычислений
   const [emblaRef] = useEmblaCarousel();
 
-  const shouldRedirect =
-    json.length > 0 && window.location.pathname.endsWith("/projects/Pizza");
-
   useEffect(() => {
-    if (shouldRedirect) {
-      navigate(`${json[0].title}`, {
+    // Всегда редиректим на первый проект при загрузке /projects
+    if (json.length > 0 && window.location.pathname === "/projects") {
+      navigate(`${json[0].id}`, {
         state: { id: json[0].id },
         replace: true,
       });
     }
-  }, [shouldRedirect, navigate]);
+  }, [navigate, json]);
 
   // Мемоизируем стили
   const slides = useMemo(
@@ -42,8 +40,8 @@ export function Works() {
           <div className={styles.embla__container}>
             {slides.map((el) => (
               <NavLink
-                key={el.title}
-                to={el.title}
+                key={el.id}
+                to={`${el.id}`}
                 style={el.style}
                 className={({ isActive }) =>
                   isActive

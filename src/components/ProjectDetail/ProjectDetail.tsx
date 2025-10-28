@@ -9,7 +9,7 @@ const projectsMap = new Map(json.map((item) => [item.id, item]));
 
 export const ProjectDetail = () => {
   const location = useLocation();
-  const id = location.state?.id || 0; // Исправил | на ||
+  const id = location.state?.id || 0;
 
   // Быстрый поиск O(1) вместо O(n)
   const project = projectsMap.get(id);

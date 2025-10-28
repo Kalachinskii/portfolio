@@ -58,10 +58,6 @@ const router = createBrowserRouter([
         ),
         children: [
           {
-            index: true,
-            element: <Navigate to={ROUTES.DEFAULT_PROJECT} replace />,
-          },
-          {
             path: ":name",
             element: (
               <Suspense fallback={<LoadingSpinner />}>
