@@ -5,7 +5,12 @@ export const Contacts = () => {
     <div className={styles.centerBox}>
       <form className={styles.form}>
         {/* Личная информация */}
-        <input type="text" placeholder="Ваше имя *" required />
+        <input
+          className={styles.input}
+          type="text"
+          placeholder="Ваше имя *"
+          required
+        />
         <input type="text" placeholder="Должность" />
         <input type="text" placeholder="Компания *" required />
         <input type="email" placeholder="Email *" required />
