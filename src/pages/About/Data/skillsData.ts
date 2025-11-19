@@ -5,7 +5,7 @@ export const frontendSkillsData: IIcon[] = [
   { name: "CSS3", icon: "fa-brands fa-css3-alt", type: "icon" },
   { name: "JavaScript", icon: "fa-brands fa-js", type: "icon" },
   { name: "React", icon: "fa-brands fa-react", type: "icon" },
-  { name: "Next.js", icon: "/icon/next.svg", type: "image" },
+  // { name: "Next.js", icon: "/icon/next.svg", type: "image" },
   { name: "TypeScript", icon: "/icon/typescript.svg", type: "image" },
   { name: "Redux", icon: "/icon/redux.svg", type: "image" },
   { name: "Zustand", icon: "/icon/zustand.png", type: "image" },

@@ -6,7 +6,7 @@ export function Nav() {
   const links = [
     { name: "Главная", link: ROUTES.HERO },
     { name: "Обо мне", link: ROUTES.ABOUT },
-    { name: "Работы", link: ROUTES.PROJECTS },
+    { name: "Pet-проекты", link: ROUTES.PROJECTS },
     { name: "Контакт", link: ROUTES.CONTACTS },
   ];
 
